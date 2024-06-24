@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-color: transparent;
+    min-height: 70vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(198, 1%, 29%);
+    font-size: 20px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgb(239, 219, 157);
+}
+
+.conatiner{
+    width: 50%;
+    height: auto;
+    background: #f1f5f8;
+    box-sizing: 4px 3px 7px 2px #00000040;
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-height: 500px;
+    min-width: 500px;
+
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2em;
+        padding: 3rem;
+    }
+    .info-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .form-todo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .write-todo{
+            outline: none;
+            margin: 0 1.5rem;
+            padding: 0 20px;
+            background-color: transparent;
+            border: none;
+            border-bottom: dashed 3px #ea95;
+            font-family: 'Gochi Hand', cursive;
+            font-size: 1rem;
+            &:focus{
+                outline: none;
+                border-bottom: solid 3px #ea95;
+            }
+        }
+    }
+
+
+    .btn-todo{
+        border: none;
+        font-family: 'Gochi Hand', cursive;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 25px;
+        box-shadow: 0 2px 0 hsl(198, 1%, 29%);
+        &:hover{
+            border: 3px solid #ea95;
+        }
+        &:active,:focus{
+            transform: translateY(10px);
+        }
+    }
+
+    
+
+    .div-todo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        
+        
+
+        li{
+            font-size: 1.5rem;
+           
+                
+            }
+            
+        }
+        
+        
+    
+}
+
+
+
